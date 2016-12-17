@@ -16,14 +16,22 @@ $(function() {
         mouseX = event.offsetX;
         mouseY = event.offsetY;
             
-        var theta = Math.atan(((mouseY - cy)/(mouseX - cx)));
+        var theta = Math.atan(((mouseY - cy)/(mouseX - cx))) - Math.PI/2;
+        if(theta < -Math.PI/2) {
+            theta += Math.PI;
+        }
         $("#cannon").css("transform","rotate(" + theta + "rad)");
     });
     
     //Shooting the garbage
-    $("body").mousemove(function(event) {
-        $("body").click(function() {
-            
-        });
+    $(".trashcan").click(function() {
+        var x = $(this).offset();
+        $(".garbage").first().offset(x);
+        setTimeout(function() {
+            $(".garbage").first().remove();
+        },1000);
+        
     });
+    
+    
 });
