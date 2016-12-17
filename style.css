@@ -26,3 +26,14 @@
 .garbagecans{ width: 100%;
             position: relative; 
 } 
+
+body{
+    background-image:url("https://images.sciencedaily.com/2007/05/070501081737_1_900x600.jpg") ;
+}
+#cannon{ 
+    width: 176px;
+    position: absolute; 
+    bottom: 0;
+    left: 40%
+}
+
