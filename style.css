@@ -1,37 +1,49 @@
-#plastic{ height: 160px;
-          width: 110px; 
-          position: absolute;
-          left: 0%;
+#plastic{ 
+    height: 160px;
+    width: 110px; 
+    position: absolute;
+    left: 0%;
 }
-#paper{ height: 160px;
-         width: 110px;
-         position: absolute;
-         left:20%;
-} 
-#glass{ height: 160px;
-        width:110px;
-        position: absolute;
-        left: 40%;
-}
-#metal{ height:160px;
-        width:110px;
-        position: relative;
-        left: 60%;
-}
-#trash{ height:160px;
-        width:110px;
-        position: relative; 
-        left: 80%;
-}
-.garbagecans{ width: 100%;
-            position: relative; 
+
+#paper{ 
+    height: 160px;
+    width: 110px;
+    position: absolute;
+    left:20%;
 } 
 
-body{
+#glass { 
+    height: 160px;
+    width:110px;
+    position: absolute;
+    left: 40%;
+}
+
+#metal { 
+    height:160px;
+    width:110px;
+    position: relative;
+    left: 60%;
+}
+
+#trash { 
+    height:160px;
+    width:110px;
+    position: relative; 
+    left: 80%;
+}
+
+.garbagecans { 
+    width: 100%;
+    position: relative; 
+} 
+
+body {
     background-image:url("http://www.gry-online.pl/galeria/html/wiadomosci/bigphotos/489247562.jpg") ;
     height:100%;
 }
-#cannon{ 
+
+#cannon { 
     width: 176px;
     position: absolute; 
     bottom: 0;
@@ -41,13 +53,14 @@ body{
 html {
     height: 100%;
 }
-.garbage{
+
+.garbage {
     position:absolute;
     bottom:10px;
     left:10px;
     display: none;
 }
 
-.garbage:nth-child(1){
+.garbage:nth-child(1) {
    display: block;
 }

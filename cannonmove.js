@@ -3,7 +3,7 @@ $(function() {
     var position = $("#cannon").position(),
         mouseX, mouseY, cannonX, cannonY, degree;
         
-    //Finding the center of the cannon (Coordinate)
+    //Finding the center of the cannon's coordinate
     var cx = $("#cannon").width() / 2;
     var cy = $("#cannon").height() / 2;
         
@@ -20,6 +20,7 @@ $(function() {
         if(theta < -Math.PI/2) {
             theta += Math.PI;
         }
+        
         $("#cannon").css("transform","rotate(" + theta + "rad)");
     });
     
@@ -27,11 +28,10 @@ $(function() {
     $(".trashcan").click(function() {
         var x = $(this).offset();
         $(".garbage").first().offset(x);
+        
         setTimeout(function() {
             $(".garbage").first().remove();
         },1000);
         
     });
-    
-    
 });
