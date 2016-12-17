@@ -1,25 +1,25 @@
-#plastic{ height: 100px;
-          width: 50px; 
+#plastic{ height: 160px;
+          width: 110px; 
           position: absolute;
           left: 0%;
 }
-#paper{ height: 100px;
-         width: 50px;
+#paper{ height: 160px;
+         width: 110px;
          position: absolute;
          left:20%;
 } 
-#glass{ height: 100px;
-        width:50px;
+#glass{ height: 160px;
+        width:110px;
         position: absolute;
         left: 40%;
 }
-#metal{ height:100px;
-        width:50px;
+#metal{ height:160px;
+        width:110px;
         position: relative;
         left: 60%;
 }
-#trash{ height:100px;
-        width:50px;
+#trash{ height:160px;
+        width:110px;
         position: relative; 
         left: 80%;
 }
@@ -28,7 +28,7 @@
 } 
 
 body{
-    background-image:url("https://images.sciencedaily.com/2007/05/070501081737_1_900x600.jpg") ;
+    background-image:url("http://www.gry-online.pl/galeria/html/wiadomosci/bigphotos/489247562.jpg") ;
     height:100%;
 }
 #cannon{ 
