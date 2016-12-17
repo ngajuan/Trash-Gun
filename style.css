@@ -43,10 +43,11 @@ html {
 }
 .garbage{
     position:absolute;
-    bottom:0;
-    left:0;
+    bottom:10px;
+    left:10px;
+    display: none;
 }
 
 .garbage:nth-child(1){
-    display: block;
+   display: block;
 }
