@@ -41,10 +41,6 @@ body{
 html {
     height: 100%;
 }
-<<<<<<< HEAD
-
-
-=======
 .garbage{
     position:absolute;
     bottom:10px;
@@ -55,4 +51,3 @@ html {
 .garbage:nth-child(1){
    display: block;
 }
->>>>>>> be3123ce1c8a4dba3ac7db47a9f66972c69c6396
