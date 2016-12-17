@@ -1,0 +1,28 @@
+#plastic{ height: 100px;
+          width: 50px; 
+          position: absolute;
+          left: 0%;
+}
+#paper{ height: 100px;
+         width: 50px;
+         position: absolute;
+         left:20%;
+} 
+#glass{ height: 100px;
+        width:50px;
+        position: absolute;
+        left: 40%;
+}
+#metal{ height:100px;
+        width:50px;
+        position: relative;
+        left: 60%;
+}
+#trash{ height:100px;
+        width:50px;
+        position: relative; 
+        left: 80%;
+}
+.garbagecans{ width: 100%;
+            position: relative; 
+} 
