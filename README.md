@@ -1,2 +1,2 @@
 # Trash-Gun
-This game is trash. 
+This game is trash.     
