@@ -29,6 +29,7 @@
 
 body{
     background-image:url("https://images.sciencedaily.com/2007/05/070501081737_1_900x600.jpg") ;
+    height:100%;
 }
 #cannon{ 
     width: 176px;
@@ -37,3 +38,6 @@ body{
     left: calc(50% - 88px)
 }
 
+html {
+    height: 100%;
+}
