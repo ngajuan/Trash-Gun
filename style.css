@@ -1,3 +1,39 @@
+#plastic{ height: 100px;
+          width: 50px; 
+          position: absolute;
+          left: 0%;
+}
+#paper{ height: 100px;
+         width: 50px;
+         position: absolute;
+         left:20%;
+} 
+#glass{ height: 100px;
+        width:50px;
+        position: absolute;
+        left: 40%;
+}
+#metal{ height:100px;
+        width:50px;
+        position: relative;
+        left: 60%;
+}
+#trash{ height:100px;
+        width:50px;
+        position: relative; 
+        left: 80%;
+}
+.garbagecans{ width: 100%;
+            position: relative; 
+} 
+
 body{
     background-image:url("https://images.sciencedaily.com/2007/05/070501081737_1_900x600.jpg") ;
 }
+#cannon{ 
+    width: 176px;
+    position: absolute; 
+    bottom: 0;
+    left: 40%
+}
+
